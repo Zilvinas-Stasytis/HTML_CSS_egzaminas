@@ -1,0 +1,81 @@
+nav.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  width: auto;
+  height: 200px;
+  gap: 50px;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+nav.div {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  border: 1px black solid;
+}
+nav div:first-child {
+  margin-right: 700px;
+  margin-top: -50px;
+  
+}
+nav div:last-child {
+  color: rgb(187, 14, 164);
+}
+.turinys {
+  display: flex;
+  /* column-count: 2; */
+  flex-direction: row;
+  margin-top: -50px;
+  align-content: space-between;
+  /* column-width: 500px; */
+  gap: 100px;
+}
+.turinys.div:first-child {
+  width: fit-content;
+  height: fit-content;
+  /* margin-top: 20px; */
+}
+.turinys.div:nth-child(2) {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 100px;
+  /* margin-top: 20px; */
+}
+.launchas p {
+  color: rgb(187, 14, 164);
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+.turinys button.signup {
+  display: flexbox;
+  border: 2px red solid;
+  border-radius: 10mm;
+  width: 150px;
+  height: 60px;
+  background-color: white; 
+  text-size-adjust: 14pt;
+}
+ .reklaminisblokas{
+  display: flex;
+  width: inherit;
+  height: 150px;
+  background:  linear-gradient(to right top ,rgb(187, 14, 164), red, orange,  rgb(31, 161, 31) );
+  border-radius: 5mm;
+  flex-direction: column;
+  align-items: baseline;
+ }
+ .reklaminisblokas  div{
+   display: inline-flexbox;
+   width: 500px;
+   font-size: 18pt;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 70px;
+   margin-left: 40px;
+ }
+ .kompanijos{
+   display: grid;
+
+ }
