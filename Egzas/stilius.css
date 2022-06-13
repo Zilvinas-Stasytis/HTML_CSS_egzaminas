@@ -1,9 +1,10 @@
+
 nav.container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: auto;
-  height: 200px;
+  height: 100px;
   gap: 50px;
   margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif, Verdana;
@@ -72,7 +73,7 @@ nav div:last-child {
   width: 99vw;
   height: 150px;
   background: linear-gradient(45deg, rgba(187, 14, 164, 0.6), rgba(255, 0, 0, 0.6), rgba(255, 165, 0, 0.6), rgba(31, 161, 31, 0.6));
-  border-radius: 5mm;
+  border-radius: 7mm;
   flex-direction: column;
   align-items: baseline;
 }
@@ -85,7 +86,7 @@ nav div:last-child {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 70px;
   margin-left: 40px;
-  }
+}
 
 section.grid-container {
   display: inline-grid;
@@ -131,33 +132,46 @@ section.grid-container {
   display: flex;
   margin-top: 50px;
   width: 99vw;
-  height: 400px;
+  height: 450px;
   border: transparent;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 60px;
+  column-gap: 40px;
+}
+
+.container-auction.div img {
+  display: flex;
 }
 
 .container-auction>div.item {
-  width: 17.5vw;
+  width: 18vw;
   height: 25vw;
   border: transparent;
   border-radius: 5mm;
   background-color: beige;
+  align-items: center;
 }
-footer div{
-  margin-top:100px;
+
+footer.container {
+  margin-top: 100px;
   display: flex;
-  width:inherit;
-  height:max-content;
-  border: 2px black solid;
-  flex-direction: column;
-  row-gap: 40px;
-  flex-wrap: nowrap;
-  align-content: baseline;
-  flex-flow: column;
-  column-count: 5;
+  width: 99vw;
+  height: auto;
+  flex-direction: row;
+  column-gap: 10px;
+  flex-wrap: wrap;
 }
-footer p{
+
+ div.narys {
+  display:flexbox;
+  width: 15vw;
+  height: 150px;
+  background-color:white;
+}
+
+.narys:first-child {
+  flex-grow: 2;
+}
+footer p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
